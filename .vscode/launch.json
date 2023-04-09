@@ -1,0 +1,19 @@
+{
+    "configurations": [
+    {
+        "cwd": "${workspaceRoot}",
+        "executable": "./build/blinkf103.elf",
+        "name": "Debug with OpenOCD",
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "configFiles": [
+            "interface/stlink.cfg",
+            "target/stm32f1x.cfg"
+        ],
+        "searchDir": [],
+        "runToEntryPoint": "main",
+        "showDevDebugOutput": "none"
+    }
+    ]
+}

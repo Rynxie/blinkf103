@@ -1,0 +1,5 @@
+{
+    "cortex-debug.gdbPath": "C:/gcc-arm-none-eabi/bin/arm-none-eabi-gdb",
+    "cortex-debug.openocdPath": "C:/openocd/bin/openocd",
+    "C_Cpp.errorSquiggles": "disabled"
+}
